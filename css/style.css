@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1250px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+header, footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+}
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 6px;
+}
+
+main{
+    display: flex;
+    padding: 30px 19px;
+    background-color: #E5E5E5;
+
+}
+main section{
+    width: 50%;
+    position: relative;
+}
+
+main .envio p{
+    position: absolute;
+    color: #FC200C;
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px;
+}
+main .envio p span{
+    color: #fff;
+}
+main .envio img{
+    width: 100%;
+    height: 100%;
+}
+main .ranking{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+main .ranking .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+main .ranking h2{
+    color: #FC200C;
+    text-align: center;
+    font-size: 24px;
+}
+main .ranking p{
+    padding: 20px;
+    color: #222222;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+main ol li{
+    color: #000;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-right: 10px;
+}
+footer nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
